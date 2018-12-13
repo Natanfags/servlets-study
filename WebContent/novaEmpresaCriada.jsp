@@ -3,7 +3,7 @@
 <html>
 	<body>
 		<c:if test="${not empty empresa}">
-		Empresa ${empresa} cadastrada com sucesso!
+		Empresa ${ empresa } cadastrada com sucesso!
 		</c:if>
 		
 		<c:if test="${empty empresa}">

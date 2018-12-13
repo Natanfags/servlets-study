@@ -5,12 +5,15 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Insert teste here</title>
+<title>Cadastro nova empresa</title>
 </head>
 	<body>
 		<form action="${linkServletNovaEmpresa}" method="POST">
-		    Nome: <input type="text" name="nome">
-		    <input type="submit">
+		
+		    Nome: <input type="text" name="nome" />
+		    Data Abertura: <input type="text" name="data" />
+		    
+		    <input type="submit" />
 		</form>
 	</body>
 </html>
